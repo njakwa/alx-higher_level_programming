@@ -1,5 +1,8 @@
 #!/usr/bin/python3
-for a in range(97, 97 + 26):
-    if a == 113 or a == 101:
+number = 97
+while(number < 123):
+    if 113 == number or 101 == number:
+        number += 1
         continue
-    print("{:c}".format(a), end='')
+    print("{:s}".format(chr(number)), end='')
+    number += 1
