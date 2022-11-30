@@ -1,3 +1,5 @@
 #!/usr/bin/python3
-for num in range(0, 99):
-    print("{:d} = {}".format(num, hex(num)))
+number = 0
+while number < 99:
+    print('{} = {}'.format(number, hex(number)))
+    number = number + 1
